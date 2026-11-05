@@ -106,10 +106,7 @@ interface ItemElements {
    */
   author?: string | null;
 
-  /**
-   * @description One or more categories or tags describing the topic of the
-   * item. Each one is emitted as its own `<category>` element.
-   */
+  /** @description One or more categories or tags describing the item. */
   category?: string | string[];
 
   /**
@@ -182,10 +179,7 @@ interface ChannelElements {
   /** @description The last time the feed content was modified. */
   lastBuildDate?: Date;
 
-  /**
-   * @description One or more categories or classifications of the feed. Each
-   * one is emitted as its own `<category>` element.
-   */
+  /** @description One or more categories or classifications of the feed. */
   category?: string | string[];
 
   /** @description The software used to generated the feed. */
